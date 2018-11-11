@@ -1,0 +1,6 @@
+﻿  Compiling CUDA source file scan.cu...
+  
+  F:\MyTutorials\Cuda programming masterclass\code\CUDAMasterclass\CUDAMasterclass>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\scan.cu.obj "F:\MyTutorials\Cuda programming masterclass\code\CUDAMasterclass\CUDAMasterclass\scan.cu" 
+  scan.cu
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+F:\MyTutorials\Cuda programming masterclass\code\CUDAMasterclass\x64\Debug\CUDAMasterclass.exe : fatal error LNK1120: 1 unresolved externals
